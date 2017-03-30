@@ -1,9 +1,19 @@
-<h2>Home</h2>
+<div id="post-page">
+  <br>
+  <div class="top-image">
+    <img src="http://coschedule.com/blog/wp-content/uploads/blog-comments-to-connect-with-influencers.png" alt="" style="width: 700px; height: 350px">
+  </div><br>
 
-{{new-post savePost2="savePost3"}} <br>
+    <ul>
+      {{#each model as |post|}}
+      <div id="posts" class="container">
+      {{post-tile post=post}}
+    </div><br>
+      {{/each}}
+    </ul>
 
-<ul>
-  {{#each model as |post|}}
-  {{post-tile post=post}}
-  {{/each}}
-</ul>
+  <div class="">
+    {{new-post savePost2="savePost3"}}
+  </div>
+   <br>
+</div>

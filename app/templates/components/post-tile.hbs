@@ -1,8 +1,16 @@
 {{#link-to 'post' post.id}}
-<li class="well">
-  <img src={{post.image}}/>
-  <h3>{{post.title}}</h3>
-  <p>{{post.teaser}}</p>
-  <p>{{post.owner}}</p>
+<li >
+  <div class="row">
+    <div class="col-md-6">
+      <img src={{post.image}} style="height: 280px; width: 400px"/>
+    </div>
+    <div class="col-md-6">
+      <h3>{{post.title}}</h3>
+      <p>{{post.body}}</p>
+      <p>{{post.teaser}}</p>
+      <p>{{post.owner}}</p>
+    </div>
+  </div>
+
 </li>
 {{/link-to}}

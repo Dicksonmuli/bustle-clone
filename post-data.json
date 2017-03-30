@@ -1,0 +1,25 @@
+{
+  "posts" : {
+    "0" : {
+      "title" : "Fast Food Cafe",
+      "body" : "Fast food is a type of mass-produced food that is prepared and served very quickly. The food is typically less nutritionally valuable compared to other foods and dishes. While any meal with low preparation time can be considered fast food, typically the term refers to food sold in a restaurant or store with preheated or precooked ingredients, and served to the customer in a packaged form for take-out/take-away.",
+      "teaser" : "Very best Coffee!",
+      "owner" : "Coffee Shop",
+      "image": "http://www.coffeeandteaexpress.com/wp-content/uploads/2017/02/fastfoods_10.jpg"
+    },
+    "1" : {
+      "title" : "Rihannah BET Awards",
+      "body" : "Rihannah was enlisted to open the 2016 MTV Video Music Awards and as usual, won. Trotting out fan favorites 'We Found Love,' 'Don't Stop the Music' and 'Only Girl,'' Ri Ri had the VMAs lit. The visuals of her set was rather interesting as well. She was accompanied by dancers in pink hoodies, while also donning a bunch of pink gear herself.",
+      "teaser" : "Leave a comment",
+      "owner" : "Rinna",
+      "image" : "http://cdn.skim.gs/images/c_fill,dpr_1.0,h_391,w_695/rihanna-BET-awards-2015/bet-awards-close-up-of-rihanna-chris-brown-performance"
+    },
+    "2" : {
+      "title" : "Blog Connect",
+      "body" : "a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries ('posts'). Posts are typically displayed in reverse chronological order, so that the most recent post appears first, at the top of the web page. ",
+      "teaser" : "Leave a comment",
+      "owner" : "Admin",
+      "image" : "https://www.seoclerk.com/pics/want48599-1H8VTd1488771655.jpg"
+    }
+  }
+}

@@ -13,10 +13,11 @@ module.exports = function(environment) {
       }
     },
     firebase: {
-    apiKey: 'AIzaSyBJJW9v8MqqBAei42pd1wWqoV5486rg-Dk',
-    authDomain: 'bustle-clone-f5900.firebaseapp.com',
-    databaseURL: 'https://bustle-clone-f5900.firebaseio.com',
-    storageBucket: 'bustle-clone-f5900.appspot.com'
+      apiKey: "AIzaSyCGDEf_B4WtKYbjOK4ssFJh1HXR_gs3LN0",
+     authDomain: "bustle-clone-45fa7.firebaseapp.com",
+     databaseURL: "https://bustle-clone-45fa7.firebaseio.com",
+     storageBucket: "bustle-clone-45fa7.appspot.com",
+     messagingSenderId: "161134431980"
   },
 
     APP: {
