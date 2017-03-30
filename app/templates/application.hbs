@@ -1,3 +1,49 @@
 
 
-{{outlet}}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div id="main">
+  <!-- Fixed navbar -->
+          <nav id="header" class="navbar navbar-fixed-top">
+              <div id="header-container" class="container navbar-container">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <a id="brand" class="navbar-brand" href="#">Bustle</a>
+                  </div>
+                  <div id="navbar" class="collapse navbar-collapse">
+                      <ul class="nav navbar-nav">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li><a href="#about">About</a></li>
+                          <li><a href="#contact">Contact</a></li>
+
+                      </ul>
+                  </div><!-- /.nav-collapse -->
+                    <ul class="icons">
+                    <!-- <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-search" aria-hidden="true"></i></li> -->
+                  </ul><!--icons-->
+              </div><!-- /.container -->
+          </nav><!-- /.navbar -->
+
+<br><br><hr>
+<div class="body-here">
+  {{outlet}}
+</div>
+
+</div>
+
+</body>
+<hr>
+<footer>
+  © Isaiah 2017
+</footer>
